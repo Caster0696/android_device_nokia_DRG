@@ -15,26 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_DRG.mk \
-    $(LOCAL_DIR)/fluid_DRG.mk \
-    $(LOCAL_DIR)/aosp_DRG.mk \
-    $(LOCAL_DIR)/evolution_DRG.mk \	
-    $(LOCAL_DIR)/ancient_DRG.mk \	
+    $(LOCAL_DIR)/dot_DRG.mk \		
 	
 
 COMMON_LUNCH_CHOICES := \
-    lineage_DRG-eng \
-    lineage_DRG-user \
-    lineage_DRG-userdebug \
-    fluid_DRG-eng \
-    fluid_DRG-user \
-    fluid_DRG-userdebug \
-    aosp_DRG-eng \
-    aosp_DRG-user \
-    aosp_DRG-userdebug \
-    evolution_DRG-eng \
-    evolution_DRG-user \
-    evolution_DRG-userdebug \
-    ancient_DRG-eng \
-    ancient_DRG-user \
-    ancient_DRG-userdebug 
+    dot_DRG-eng \
+    dot_DRG-user \
+    dot_DRG-userdebug \
